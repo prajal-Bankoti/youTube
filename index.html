@@ -80,7 +80,7 @@
     #video {
       display: grid;
       grid-template-columns: repeat(3, 30%);
-      grid-gap: 3%;
+      grid-gap: 4%;
       justify-content: center;
       padding-left: 4%;
       margin-top: 100px;
@@ -98,7 +98,7 @@
         position: fixed;
       "
     >
-      <img src="https://pngimg.com/uploads/youtube/youtube_PNG22.png" alt="" />
+      <img onclick="on" src="https://pngimg.com/uploads/youtube/youtube_PNG22.png" alt="" />
       <input
         type="text"
         name=""
@@ -129,6 +129,9 @@
   </body>
 </html>
 <script>
+  function on(){
+    window.location.href="https://prajal-bankoti.github.io/youTube/"
+  }
   async function popular() {
     // let q = document.getElementById('video').value;
     let vidoes_div = document.getElementById("video");
